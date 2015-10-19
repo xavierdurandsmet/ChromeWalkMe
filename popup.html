@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<button id='theButton'>click to see if the webpage is using WalkMe<button>
+	<div>
+		<a href="http://www.walkme.com"> www.walkme.com </a>
+		<span id='enabled'>disabled</span>
+	</div>
+	<div id='details' style="visibility:hidden;">
+		<p> Details </p>
+		<div>
+			<p> User Id</p>
+			<p id='userId'></p>
+		</div>
+		<div>
+			<p> Env</p>
+			<p id='env'></p>
+		</div>
+		<div>
+			<p> Is HTTPS</p>
+			<p id='https'></p>
+		</div>
+		<div>
+			<p> Host</p>
+			<p id='host'></p>
+		</div>
+		<div>
+			<p> Async </p>
+			<p id='async'></p>
+		</div>
+	</div>
+	<script src="jquery.min.js"></script>
+	<script src="popup.js"></script>
+</body>
+</html>
